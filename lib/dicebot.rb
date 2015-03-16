@@ -88,7 +88,7 @@ tfdicebot = Cinch::Bot.new do
     end
   end
 
-  on :message, /^!dlist/ do |m|
+  on :message, "!dlist" do |m|
     if desc_exists?(m.user.nick)
       all_descs_for(m.user.nick).each do |desc|
         m.reply "#{desc.key}: #{desc.value}\n"
