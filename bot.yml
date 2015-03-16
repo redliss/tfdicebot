@@ -1,0 +1,7 @@
+server: irc.freenode.net
+nick: TFBot
+channels:
+- '##Apuleius'
+- '##ApuleiusCasino'
+- '##ApuleiusTavern'
+database: default

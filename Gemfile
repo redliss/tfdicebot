@@ -4,6 +4,7 @@ gem 'cinch'
 gem 'cinch-dice'
 gem 'cinch-last_seen'
 gem 'data_mapper'
+gem 'require_all'
 
 group :test do
     gem 'rspec'
