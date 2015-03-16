@@ -1,1 +1,1 @@
-bot: ruby lib/tf_dicebot.rb
+bot: ruby lib/dicebot.rb
